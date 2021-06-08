@@ -1,0 +1,7 @@
+fonts:
+1. font-family: 'Roboto', sans-serif;
+2. font-family: 'Lato', sans-serif;
+
+Color:
+1. Dark Ash - #333333
+2. Light Ash - #8e8e8e
