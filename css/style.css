@@ -296,3 +296,87 @@ header{
     border-bottom: 1px solid #333333;
 }
 /* why choose end */
+
+/* who work start */
+.who_work{
+    background: url(../img/who-work-with-us.jpg);
+}
+.who_card{
+    border: none !important;
+    border-radius: 0% !important;
+}
+.who_card img{
+    border-radius: 0% !important;
+}
+.who_card h5{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card_text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* who work end */
+
+/* Pricing start */
+.price{
+    color: #8e8e8e;
+}
+.p_title {
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.p_title h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.p_price{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 45px !important;
+    margin-top: 45px;
+}
+.amount{
+    font-size: 36px;
+    font-weight: 400;
+    color: #333333;
+}
+.slash{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+ul.feature{
+    list-style: none;
+    margin-bottom: 40px;
+}
+ul.feature li{
+    text-indent: -5px;
+    text-align: left;
+    line-height: 40px;
+}
+ul.feature > li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+a.signup{
+        width: 200px;
+        height: 50px;
+        background-color: white;
+        color: #8e8e8e;
+        padding: 12px 25px;
+        text-align: center;
+        align-items: center;
+        border: 1px solid #8e8e8e;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 0%;
+}
+.c_single:hover .c_icon h5{
+    color: #333333;
+}
+/* Pricing end */
