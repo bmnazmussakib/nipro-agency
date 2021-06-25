@@ -1,30 +1,357 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .menu ul {
+        margin-top: 15px;
+    }
+    .menu ul li {
+        padding: 10px 0;
+    }
+    .menu ul li a{
+        text-align: right !important;
+    }
 
+    /* Slider star */
+    .single-item {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .single-item h1 {
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+    .single-item p {
+        margin-bottom: 34px;
+        font-size: 14px;
+        line-height: 25px;
+        width: 90%;
+    }
+    /* Slider end */
+
+    /* Service start */
+    .c_single{
+        margin-top: 40px;
+    }
+    .service{
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* Service end */
+
+    /* About us start */
+    .c_title h2 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .a_text p {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    .a_text a {
+        width: 160px;
+        height: 45px;
+        padding: 10px 15px;
+    }
+    /* About us end */
+
+    /* Why choose start */
+    
+    .row .choose-card{
+        width: 70%;
+        margin: 0 auto;
+        margin: 15px;
+    }
+    /* Why choose end */
+
+    /* Who work start */
+    .who_card{
+        width: 75%;
+        margin-bottom: 40px !important;
+        margin: 0 auto;
+    }
+    /* Who work end */
+
+    /* price start */
+    .price{
+        width: 75%;
+        margin: 0 auto;
+    }
+    /* price end */
+
+    /* Form start */
+    .contact{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .first-name{
+        margin-bottom: 30px;
+    }
+    
+    /* Form end */
+
+    /* Bottom start */
+    .copyright p{
+        text-align: center;
+    }
+    .footer_menu{
+        text-align: center;
+    }
+    /* Bottom end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .menu ul {
+        margin-top: 15px;
+    }
+    .menu ul li {
+        padding: 10px 0;
+    }
+    .menu ul li a{
+        text-align: right !important;
+    }
 
+    /* Slider start */
+    .single-item {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .single-item p {
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .single-item a {
+        width: 170px;
+        height: 50px;
+    }
+    /* Slider end */
+
+    /* Service start */
+    .service{
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* Service end */
+
+    /* About us start */
+    .a_text a {
+        width: 160px;
+        height: 45px;
+        padding: 10px 15px;
+    }
+    .a_text p {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    .c_title h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    /* About us end */
+
+    /* Why choose start */
+    
+    .row .choose-card{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    /* Why choose end */
+
+    /* Who work start */
+    .who_card{
+        width: 75%;
+        margin-bottom: 40px !important;
+        margin: 0 auto;
+    }
+    /* Who work end */
+
+    /* price start */
+    .price{
+        width: 75%;
+        margin: 0 auto;
+    }
+    /* price end */
+
+    /* Bottom start */
+    .copyright p{
+        text-align: center;
+    }
+    .footer_menu{
+        text-align: center;
+    }
+    /* Bottom end */
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Header start */
+    .menu ul {
+        margin-top: 15px;
+    }
+    .menu ul li {
+        padding: 10px 0;
+    }
+    .menu ul li a{
+        text-align: right !important;
+    }
+    /* Header end */
+
     /* Slider start */
     .single-item h1 {
         margin-bottom: 15px !important;
-        font-size: 40px;
+        font-size: 50px;
+    }
+    .single-item {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .single-item p {
+        width: 90%;
     }
     /* Slider end */
+
+    /* Service start */
+    .c_single{
+        margin-bottom: 40px;
+    }
+    /* Service end */
+
+    /* About us start */
+    .c_title h2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .a_text p {
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    /* About us end */
+
+    /* Why choose start */
+    
+    .row .choose-card{
+        margin: 20px 0px;
+    }
+
+    .row .choose-card .co_icon i{
+        font-size: 30px;
+
+    }
+    .row .choose-card .co_icon i{
+        font-size: 30px;
+
+    }
+    .co_title h3 {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    /* Why choose end */
+
+    /* Who work start */
+    .who_card{
+        width: 75%;
+        margin-bottom: 40px !important;
+        margin: 0 auto;
+    }
+    /* Who work end */
+
+    /* price start */
+    .price{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    a.signup{
+        width: 160px;
+        height: 45px;
+        padding: 10px 15px;   
+    }
+    /* price end */
+
+    /* Buy now start */
+    .buy{
+        width: 80%;
+        margin: 0 auto;
+    }
+    a.buy_now {
+        width: 200px;
+        height: 50px;
+        padding: 12px 25px;
+    }
+    /* Buy now end */
+
+    /* bottom start */
+    .footer_menu,.social_icon,.copyright{
+        text-align: center;
+    }
+    /* bottom end */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Slider start */
     .single-item h1 {
-        font-size: 45px;
+        font-size: 50px;
     }
+    .single-item {
+        margin-top: 120px;
+        margin-bottom: 150px;
+    }
+    
     /* Slider end */
+
+    /* Service start */
+    .c_single{
+        margin-bottom: 60px;
+    }
+    /* Service end */
+
+    /* About us start */
+    .a_text p {
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+    /* About us end */
+
+    /* Price start */
+    a.signup{
+        width: 160px;
+        height: 45px;
+        padding: 10px 15px;   
+    }
+    /* Price end */
+
+    /* Bottom start */
+    .social_icon{
+        margin-bottom: 80px;
+    }
+    .social_icon ul{}
+    .social_icon ul li{
+        display: inline-block;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        padding: 10px 15px;
+        margin-right: 10px;
+    }
+    .social_icon ul li:hover{
+        background-color: white;
+    }
+    .social_icon ul li:hover a{
+        color: #333333;
+    }
+    .social_icon ul li a{
+        font-size: 1rem;
+        color: #ffffff;
+    }
+    
+    footer .copyright p{
+        color: white;
+    }
+    /* Bottom end */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -38,5 +365,10 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    
+    /* about us start */
+    .a_text p {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    /* about us end */
 }

@@ -12,10 +12,11 @@
     <!-- CSS Links-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/media.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <title>Nipro Agency</title>
 
@@ -28,7 +29,7 @@
           <div class="container-fluid">
             <!-- Logo -->
             <a class="navbar-brand" href="#">
-              <img class="logo img-fluid" src="./img/logo.png" alt="nipro agency">
+              <img class="logo img-fluid" src="./img/logo.png" alt="nipro agency" style="width: 150px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -36,7 +37,7 @@
 
             <!-- Menu -->
             <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -167,8 +168,8 @@
           </div>
         </div>
         <!-- 3rd row -->
-        <div class="row">
-          <div class="col-lg-3">
+        <div class="row mt-5">
+          <div class="col-xl-3 col-lg-6 col-md-6">
             <!-- single service -->
             <div class="c_single text-center">
               <div class="c_icon">
@@ -182,7 +183,7 @@
             <!-- single service -->
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-xl-3 col-lg-6 col-md-6">
             <!-- single service -->
             <div class="c_single text-center">
               <div class="c_icon">
@@ -196,7 +197,7 @@
             <!-- single service -->
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-xl-3 col-lg-6 col-md-6">
             <!-- single service -->
             <div class="c_single text-center">
               <div class="c_icon">
@@ -210,7 +211,7 @@
             <!-- single service -->
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-xl-3 col-lg-6 col-md-6">
             <!-- single service -->
             <div class="c_single text-center">
               <div class="c_icon">
@@ -231,15 +232,24 @@
     <!-- About start -->
     <section class="about">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-5">
-            <img src="./img/about-us.jpg" alt="">
+
+        <div class="row justify-content-center">
+          <div class=" d-md-none ">
+            <div class="c_title text-center">
+              <div class="c_pipe"></div>
+              <h2>About Us</h2>
+            </div>
           </div>
-          <div class="col-lg-6">
+        </div>
+
+        <div class="row justify-content-between">
+          <div class="col-xl-5 col-lg-6 col-md-6">
+            <img src="./img/about-us.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6">
             <div class="a_text ">
               <div class="c_title">
-                <h2>About us</h2>
-              </div>
+                <h2 class="d-none d-md-block">About us</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un
                 <br>
                 <br>
@@ -282,8 +292,8 @@
         
         <div class="row">
           <!-- Choose item -->
-          <div class="col-lg-4 co_item">
-            <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 co_item choose-card">
+            <div class="row mb-5 ">
               <div class="col-2">
                 <div class="co_icon">
                   <i class="pe-7s-diamond"></i>
@@ -300,11 +310,11 @@
           <!-- Choose item -->
 
           <!-- Choose item -->
-          <div class="col-lg-4 co_item">
-            <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 co_item choose-card">
+            <div class="row mb-5 ">
               <div class="col-2">
                 <div class="co_icon">
-                  <i class="pe-7s-diamond"></i>
+                  <i class="fas fa-bezier-curve"></i>
                 </div>
               </div>
               <div class="col-8">
@@ -318,11 +328,11 @@
           <!-- Choose item -->
 
           <!-- Choose item -->
-          <div class="col-lg-4 co_item">
-            <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 co_item choose-card">
+            <div class="row mb-5 ">
               <div class="col-2">
                 <div class="co_icon">
-                  <i class="pe-7s-diamond"></i>
+                  <i class="far fa-image"></i>
                 </div>
               </div>
               <div class="col-8">
@@ -336,11 +346,11 @@
           <!-- Choose item -->
 
           <!-- Choose item -->
-          <div class="col-lg-4 co_item">
-            <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 co_item choose-card">
+            <div class="row mb-5 ">
               <div class="col-2">
                 <div class="co_icon">
-                  <i class="pe-7s-diamond"></i>
+                  <i class="far fa-clock"></i>
                 </div>
               </div>
               <div class="col-8">
@@ -354,11 +364,11 @@
           <!-- Choose item -->
 
           <!-- Choose item -->
-          <div class="col-lg-4 co_item">
-            <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 co_item choose-card">
+            <div class="row mb-5 ">
               <div class="col-2">
                 <div class="co_icon">
-                  <i class="pe-7s-diamond"></i>
+                  <i class="fas fa-cog"></i>
                 </div>
               </div>
               <div class="col-8">
@@ -372,11 +382,11 @@
           <!-- Choose item -->
 
           <!-- Choose item -->
-          <div class="col-lg-4 co_item">
-            <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 co_item choose-card">
+            <div class="row mb-5 ">
               <div class="col-2">
                 <div class="co_icon">
-                  <i class="pe-7s-diamond"></i>
+                  <i class="fas fa-sliders-h"></i>
                 </div>
               </div>
               <div class="col-8">
@@ -407,42 +417,42 @@
         </div>
 
         <div class="row ">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="card who_card">
                 <img src="./img/person1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Ashiful Haque Pappu</h5>
                   <p class="card-text">UI/UX Designer</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="card who_card">
-                <img src="./img/person1.jpg" class="card-img-top" alt="...">
+                <img src="./img/person2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">UI/UX Designer</p>
+                  <h5 class="card-title">Al-Rayhan</h5>
+                  <p class="card-text">Interface Designer</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="card who_card">
-                <img src="./img/person1.jpg" class="card-img-top" alt="...">
+                <img src="./img/person3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">UI/UX Designer</p>
+                  <h5 class="card-title">Santush Deb Nath</h5>
+                  <p class="card-text">Web Developer</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
               <div class="card who_card">
-                <img src="./img/person1.jpg" class="card-img-top" alt="...">
+                <img src="./img/person4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">UI/UX Designer</p>
+                  <h5 class="card-title">Saif Ullah Patowary</h5>
+                  <p class="card-text">Web Designer</p>
                 </div>
               </div>
             </div>
@@ -465,7 +475,7 @@
 
         <div class="row">
           <!-- single price -->
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="c_single text-center">
               <div class="c_icon p_title">
                 <h5>basic</h5>
@@ -480,11 +490,11 @@
               </ul>
               <a href="" class="btn signup">Sign up<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
             </div>
-            <!-- single price -->
           </div>
+          <!-- single price -->
 
           <!-- single price -->
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="c_single text-center">
               <div class="c_icon p_title">
                 <h5>basic</h5>
@@ -499,11 +509,49 @@
               </ul>
               <a href="" class="btn signup">Sign up<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
             </div>
-            <!-- single price -->
+          </div>
+          <!-- single price -->
 
-            <!-- There is a problem appeared here -->
-            
-        </div>
+          <!-- single price -->
+          <div class="col-lg-3 col-md-6">
+            <div class="c_single text-center">
+              <div class="c_icon p_title">
+                <h5>basic</h5>
+              </div>
+              <p class="p_price"><span class="amount">$29 </span><span class="slash">/</span>Per Month</p>
+              <ul class="feature">
+                <li>1Th Storage</li>
+                <li>Unlimited Members</li>
+                <li>50 Project</li>
+                <li>70GB Bandwidth</li>
+                <li>24/7 Customer Support</li>
+              </ul>
+              <a href="" class="btn signup">Sign up<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+            </div>
+          </div>
+          <!-- single price -->
+
+          <!-- single price -->
+          <div class="col-lg-3 col-md-6">
+            <div class="c_single text-center">
+              <div class="c_icon p_title">
+                <h5>basic</h5>
+              </div>
+              <p class="p_price"><span class="amount">$29 </span><span class="slash">/</span>Per Month</p>
+              <ul class="feature">
+                <li>1Th Storage</li>
+                <li>Unlimited Members</li>
+                <li>50 Project</li>
+                <li>70GB Bandwidth</li>
+                <li>24/7 Customer Support</li>
+              </ul>
+              <a href="" class="btn signup">Sign up<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+            </div>
+          </div>
+          <!-- single price -->
+
+          
+          
 
 
 
@@ -513,14 +561,122 @@
 
 
     <!-- Buy now start -->
+    <section class="buy">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-md-4 col-4">
+            <div class="b_text">
+              <p>Nipro  |  Responsive HTML Template</p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-6"></div>
+          <div class="col-xl-2 col-md-2 col-2">
+            <a href="#" class="buy_now btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Buy now end -->
 
 
     <!-- Member start -->
+    <section class="member">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <!-- Carousel -->
+              <div id="carouselEx2" class="carousel slide row" data-bs-ride="carousel">
+                <div class="col-lg-11">
+                  <div class="carousel-inner member-caro">
+                    <!-- single item -->
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-lg-7">
+                          <div class="single-member-item">
+                            <h1>We Have Talented Team</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-1 ">
+                    <div class="carousel-indicators indicator indicator-caro">
+                      <button type="button" data-bs-target="#carouselEx2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselEx2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselEx2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+          
+                    <!--slider control -->
+                    <button class="p_c_p carousel-control-prev" type="button" data-bs-target="#carouselEx2" data-bs-slide="prev">
+                      <span class="p_p_icon carousel-control-prev-icon" aria-hidden="true">Prev</span>
+                    </button>
+                    <button class="p_c_n carousel-control-next" type="button" data-bs-target="#carouselEx2" data-bs-slide="next">
+                      <span class="p_n_icon carousel-control-next-icon" aria-hidden="true">Next</span>
+                    </button>
+                    <!--slider control -->
+                </div>
+
+              </div>
+              <!-- Carousel -->
+            
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Member end -->
 
 
     <!-- Contact start -->
+    <section class="contact">
+      <div class="container">
+        
+        
+        <!-- <hr> -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="c_title text-center contact_head">
+              <h2>contact</h2>
+            </div>
+          </div>  
+        </div>
+        <!-- <div class="line"></div> -->
+        
+        
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6 mb-4">
+                  <input type="email" class="form-control first-name" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <textarea type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Messege"></textarea>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-lg-4">
+                  <a href="" class="btn signup text-center">Sign up<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Contact end -->
 
 
@@ -529,6 +685,58 @@
 
 
     <!-- Footer start -->
+    <section class="bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-4 col-lg-5 col-md-6">
+            <div class="c_title text-center contact bottom_head">
+              <h2>Nipro agency</h2>
+            </div>
+            <div class="bottom-text text-center">
+              <p>Lorem Ipsum is simply dummy text of lol he the printing and typesetting industry. Lorem Ipsum 
+                Has been the koi jabi mama</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-12 col-md-12">
+            <div class="social_icon">
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+                <li><a href=""><i class="fab fa-behance"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <footer>
+          <div class="row">
+            <div class="col-lg-5 col-sm-12">
+              <div class="copyright">
+                <p>All rights reserved NIPRO AGENCY  |  By : Arpon Das</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-12"></div>
+            <div class="col-lg-5 col-sm-12 col-md-12">
+              <div class="footer_menu justify-content-center">
+                <ul>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">Sitemap</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Terms of Use</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
     <!-- Footer end -->
 
 
